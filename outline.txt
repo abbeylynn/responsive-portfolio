@@ -1,0 +1,30 @@
+ALL PAGES:
+
+top box (header)
+	contains green box
+	contains links w/seperations
+
+bottom box(footer
+	green line
+	dark gray
+
+PAGE 1
+
+body(gray) box
+	contains about me box
+	contains connect box
+		about me - header, line, photo, text
+		contact - header, img links
+
+PAGE 2
+body(gray) box
+	contains contact form
+		form - header, form, submit
+		contact - header, img links (SAME AS PAGE 1)
+
+PAGE 3
+body (gray) box
+	contains portfolio box
+	contains contact box
+		portfolio - multiple images, header
+		contact - SAME AS PAGE Q

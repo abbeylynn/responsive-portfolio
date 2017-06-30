@@ -1,0 +1,409 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	margin-top:-20px;
+	font-family:arial;
+}
+
+.header{
+	background:#fff;
+	width:100%;
+	height:80px;
+	border-bottom-color:#666;
+	border-bottom-width:2px;
+	border-style:solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	margin:auto 0;
+}
+
+.name{
+	position:relative;
+	color:white;
+	background:#4aaaa5;
+	padding:20px;
+	text-align:center;
+	width:24%;
+	bottom:2px;
+	height:80px;
+	left:120px;
+	}
+
+.top-links{
+	position:relative;
+	color:#ccc;
+	text-align:center;
+	padding:20px;
+	width:50%;
+	background:#fff;
+	bottom:100px;
+	left:650px;
+	font-size:16px;
+	font-family:arial;
+}
+
+.middle-box{
+	background-image:url("../images/pow-star.png");
+	width:100%;
+	height:600px;
+	border:0px 0px 0px 0px;
+}
+
+.left-box{
+	background-color:white;
+	height:500px;
+	width:745px;
+	position:absolute;
+	top:120px;
+	left:124px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#ddd;
+	padding:0px 20px 10px 20px;
+}
+
+.about-me{
+	color:#4aaaa5;
+	text-align:center;
+}
+
+.dogs{
+	max-width:300px;
+	max-height:300px;
+	height:auto;
+	width:auto;
+	float:left;
+	padding-top:10px;
+	padding-right:20px;
+}
+
+p{
+	color:#666;
+	font-size:18px;
+}
+
+form{
+	font-size:18px;
+	color:#ddd;
+}
+
+label{
+	padding:10px;
+	color:#666;
+}
+
+input{
+	width:98%;
+	padding:8px;
+	margin:10px;
+}
+
+textarea{
+	width:98%;
+	padding:50px 50px 30px 50px;
+	margin:10px;
+}
+
+.button{
+	background-color:#4aaaa5;
+	color:white;
+	width:100px;
+	height:45px;
+	font-size:18px;
+}
+
+.social-box{
+	background-color:white;
+	height:200px;
+	width:270px;
+	position:relative;
+	top:40px;
+	left:900px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#ddd;
+	padding:0px 20px 10px 20px;
+}
+
+.contact{
+	color:#4aaaa5;
+	text-align:left;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.socialphoto{
+	height:72px;
+	width:72px;
+}
+
+h3{
+	color:#4aaaa5;
+	text-align:center;
+	font-size:26px;
+}
+
+.left-box2{
+	background-color:white;
+	height:550px;
+	width:745px;
+	position:absolute;
+	top:120px;
+	left:124px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#ddd;
+	padding:0px 20px 10px 20px;
+}
+
+.placeholder{
+	position:relative;
+	margin-left:20px;
+	padding:10px 40px 40px 20px;
+	width:330px;
+	height:230px;
+	float:left;
+}
+
+.placeholder-text1{
+	position:absolute;
+	left:60px;
+	top:230px;
+	color:white;
+	background-color:#4aaaa5;
+	text-align:center;
+	font-size:18px;
+	width:270px;
+	height:40px;
+	padding:10px;
+	z-index:1;
+}
+
+.placeholder-text2{
+	position:absolute;
+	left:410px;
+	top:230px;
+	color:white;
+	background-color:#4aaaa5;
+	text-align:center;
+	font-size:18px;
+	width:270px;
+	height:40px;
+	padding:10px;
+	z-index:1;
+}
+
+.placeholder-text3{
+	position:absolute;
+	left:60px;
+	top:460px;
+	color:white;
+	background-color:#4aaaa5;
+	text-align:center;
+	font-size:18px;
+	width:270px;
+	height:40px;
+	padding:10px;
+	z-index:1;
+}
+
+.placeholder-text4{
+	position:absolute;
+	left:410px;
+	top:460px;
+	color:white;
+	background-color:#4aaaa5;
+	text-align:center;
+	font-size:18px;
+	width:270px;
+	height:40px;
+	padding:10px;
+	z-index:1;
+}
+
+.footer{
+		background:#666;
+		width:100%;
+		height:80px;
+		border-top-color:#4aaaa5;
+		border-top-width:7px;
+		border-style:solid;
+		border-bottom:0px;
+		border-left:0px;
+		border-right:0px;
+		font-size:12px;
+		color:#ddd;
+		text-align:center;
+		padding:30px;
+		font-family:arial;
+}
+
+
+
+@media screen and (max-width: 980px){
+
+	.name{
+	font-size:18px;
+	position:static;
+}
+
+.top-links{
+	position:relative;
+	left:550px;
+}
+
+.left-box,
+.left-box2,
+.social-box{
+	position:static;
+	width:100%;
+}
+
+.placeholder-text1{
+		left:70px;
+		top:310px;
+}
+
+.placeholder-text2{
+		left:420px;
+		top:310px;
+}
+
+.placeholder-text3{
+		left:70px;
+		top:540px;
+}
+
+.placeholder-text4{
+		left:420px;
+		top:540px;
+}
+
+.left-box{
+	width:400px;
+}
+
+.social-box{
+	padding-top:30px;
+	text-align:center
+}
+
+.footer{
+	position:fixed;
+	bottom:0;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+	
+	.name{
+	font-size:18px;
+	position:static;
+}
+
+.top-links{
+	position:relative;
+	left:420px;
+}
+
+.left-box,
+.left-box2,
+.social-box{
+	position:static;
+	width:100%;
+}
+
+.placeholder-text1{
+		left:70px;
+		top:310px;
+}
+
+.placeholder-text2{
+		left:70px;
+		top:540px;
+}
+
+.placeholder-text3{
+		left:70px;
+		top:760px;
+}
+
+.placeholder-text4{
+		left:70px;
+		top:980px;
+}
+
+.left-box{
+	width:400px;
+}
+
+.social-box{
+	padding-top:30px;
+	text-align:center
+}
+
+.footer{
+	position:fixed;
+	bottom:0;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+	.name{
+	font-size:18px;
+	position:static;
+}
+
+.top-links{
+	position:relative;
+	left:260px;
+}
+
+.left-box,
+.left-box2,
+.social-box{
+	position:static;
+	width:100%;
+}
+
+.left-box2{
+	width:400px;
+}
+
+.placeholder-text1{
+		left:70px;
+		top:310px;
+}
+
+.placeholder-text2{
+		left:70px;
+		top:540px;
+}
+
+.placeholder-text3{
+		left:70px;
+		top:760px;
+}
+
+.placeholder-text4{
+		left:70px;
+		top:980px;
+}
+
+.social-box{
+	padding-top:30px;
+	text-align:center
+}
+
+
+.footer{
+	position:fixed;
+	bottom:0;
+}
+}
+ 
